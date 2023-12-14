@@ -7,6 +7,7 @@ class Solution {
         int[] result = new int[nums.length];
         int index = nums.length - 1;
 
+        // the next biggest square is either at the beginging or at the end, the smallest squre is in the middle
         while (left <= right){
             if (nums[left] * nums[left] > nums[right] * nums[right]){
                 result[index] = nums[left] * nums[left];
