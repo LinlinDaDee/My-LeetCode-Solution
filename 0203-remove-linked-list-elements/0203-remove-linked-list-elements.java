@@ -17,21 +17,19 @@
 
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
-    if (head == null) {
+        if (head == null){
+            return head;
+        }
+        ListNode dummy = new ListNode(-1,head);
+        ListNode cur = dummy;
+        while (cur.next != null){
+            if (cur.next.val == val) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+        head = dummy.next;
         return head;
     }
-    // 因为删除可能涉及到头节点，所以设置dummy节点，统一操作
-    ListNode dummy = new ListNode(-1, head);
-    ListNode pre = dummy;
-    ListNode cur = head;
-    while (cur != null) {
-        if (cur.val == val) {
-            pre.next = cur.next;
-        } else {
-            pre = cur;
-        }
-        cur = cur.next;
-    }
-    return dummy.next;
-}
 }
