@@ -24,3 +24,4 @@ Collection of my solutions to LeetCode questions.
 [0160-intersection-of-two-linked-lists](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0160-intersection-of-two-linked-lists) two pointers 交换两个指针指向的链表使得两个指针在第二圈的时候traverse的节点数一样
 
 [0142-linked-list-cycle-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0142-linked-list-cycle-ii) two pointers -- fast & slow (相遇的判断和环入口的判断)
+## Hash Table
