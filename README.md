@@ -11,8 +11,16 @@ Collection of my solutions to LeetCode questions.
 
 [0059-spiral-matrix-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0059-spiral-matrix-ii) (循环不变量原则)
 ## Linked List
-[0203-remove-linked-list-elements](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0203-remove-linked-list-elements) pointer in Java -- reference 
+[0203-remove-linked-list-elements](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0203-remove-linked-list-elements) pointer in Java -- reference (操作指针必须是要删除的节点的上一个节点)
 
 [0707-design-linked-list](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0707-design-linked-list) dummy_head
 
 [0206-reverse-linked-list](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0206-reverse-linked-list) two pointers/recursion 
+ 
+[0024-swap-nodes-in-pairs](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0024-swap-nodes-in-pairs) 操作指针的位置 & iteration 终止的判断条件
+
+[0019-remove-nth-node-from-end-of-list](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0019-remove-nth-node-from-end-of-list) two pointers, the gap between first pointer and second pointer is n
+
+[0160-intersection-of-two-linked-lists](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0160-intersection-of-two-linked-lists) two pointers 交换两个指针指向的链表使得两个指针在第二圈的时候traverse的节点数一样
+
+[0142-linked-list-cycle-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0142-linked-list-cycle-ii) two pointers -- fast & slow (相遇的判断和环入口的判断)
