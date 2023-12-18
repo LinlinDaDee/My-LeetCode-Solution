@@ -25,3 +25,4 @@ Collection of my solutions to LeetCode questions.
 
 [0142-linked-list-cycle-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0142-linked-list-cycle-ii) two pointers -- fast & slow (相遇的判断和环入口的判断)
 ## Hash Table
+当我们遇到了要快速判断一个元素是否出现集合里的时候，就要考虑哈希法
