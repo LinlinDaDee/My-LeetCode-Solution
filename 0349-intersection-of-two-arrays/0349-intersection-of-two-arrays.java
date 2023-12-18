@@ -6,9 +6,9 @@ import java.util.Set;
 
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-        // if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0) {
-        //     return new int[0];
-        // }
+        if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0) {
+            return new int[0];
+        }
 
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> resultSet = new HashSet<>();
