@@ -5,10 +5,10 @@ import java.util.Set;
 // 但是如果没有限制的话 HashSet会更好
 
 class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
-        if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0) {
-            return new int[0];
-        }
+    // public int[] intersection(int[] nums1, int[] nums2) {
+    //     if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0) {
+    //         return new int[0];
+    //     }
 
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> resultSet = new HashSet<>();
