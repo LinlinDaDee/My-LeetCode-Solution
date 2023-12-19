@@ -27,10 +27,14 @@ Collection of my solutions to LeetCode questions.
 ## Hash Table
 当我们遇到了要快速判断一个元素是否出现集合里的时候，就要考虑哈希法
 
-[0242-valid-anagram](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0242-valid-anagram) hash(array)
+[0242-valid-anagram](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0242-valid-anagram) hash(array) -- letters
 
 [0349-intersection-of-two-arrays](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0349-intersection-of-two-arrays) HashSet
 
 [0202-happy-number](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0202-happy-number) HashSet
 
 [0001-two-sum](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0001-two-sum) HashMap
+
+[0454-4sum-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0454-4sum-ii) HashMap
+
+[0383-ransom-note](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0383-ransom-note) hash(array) -- letters
