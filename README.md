@@ -38,3 +38,7 @@ Collection of my solutions to LeetCode questions.
 [0454-4sum-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0454-4sum-ii) HashMap
 
 [0383-ransom-note](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0383-ransom-note) hash(array) -- letters
+
+[0015-3sum](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0015-3sum) two pointers -- 去重
+
+[0018-4sum](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0018-4sum) two pointers -- 3 sum 再套一个 for 循环
