@@ -1,3 +1,7 @@
+// 其实这道题目使用哈希法并不十分合适，因为在去重的操作中有很多细节需要注意，在面试中很难直接写出没有bug的代码
+// 这道题目使用双指针法 要比哈希法高效一些
+// O(n^2)
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         
@@ -39,7 +43,7 @@ class Solution {
                     left++;
                 } else {
                     result.add(Arrays.asList(nums[i], nums[left], nums[right]));
-		            // 去重逻辑应该放在找到一个三元组之后，对b 和 c去重
+		            // 去重逻辑应该放在找到一个三元组之后，对 b 和 c 去重
                     while (right > left && nums[right] == nums[right - 1]) right--;
                     while (right > left && nums[left] == nums[left + 1]) left++;
                     
