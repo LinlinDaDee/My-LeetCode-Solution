@@ -42,7 +42,7 @@ Collection of my solutions to LeetCode questions.
 [0015-3sum](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0015-3sum) two pointers -- 去重
 
 [0018-4sum](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0018-4sum) two pointers -- 3 sum 再套一个 for 循环
-##String
+## String
 [0344-reverse-string](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0344-reverse-string) two pointers
 
 [0541-reverse-string-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0541-reverse-string-ii) for 循环每隔 2k 跳一次
