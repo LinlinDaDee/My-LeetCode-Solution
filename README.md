@@ -44,3 +44,7 @@ Collection of my solutions to LeetCode questions.
 [0018-4sum](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0018-4sum) two pointers -- 3 sum 再套一个 for 循环
 ##String
 [0344-reverse-string](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0344-reverse-string) two pointers
+
+[0541-reverse-string-ii](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0541-reverse-string-ii) for 循环每隔 2k 跳一次
+
+[0151-reverse-words-in-a-string](https://github.com/LinlinDaDee/My-LeetCode-Solution/tree/main/0151-reverse-words-in-a-string) 1.去除多余空格 -> 2.整个字符串反转 -> 3.每个单词反转 
